@@ -1,0 +1,67 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = MyBlazorApp
+build_property.RootNamespace = MyBlazorApp
+build_property.ProjectDir = /Users/louiselindberg/Desktop/Moment1.2/Moment1.2/MyBlazorApp/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/louiselindberg/Desktop/Moment1.2/Moment1.2/MyBlazorApp
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/louiselindberg/Desktop/Moment1.2/Moment1.2/MyBlazorApp/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/louiselindberg/Desktop/Moment1.2/Moment1.2/MyBlazorApp/Components/MyComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9NeUNvbXBvbmVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/louiselindberg/Desktop/Moment1.2/Moment1.2/MyBlazorApp/Pages/Convert.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29udmVydC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/louiselindberg/Desktop/Moment1.2/Moment1.2/MyBlazorApp/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/louiselindberg/Desktop/Moment1.2/Moment1.2/MyBlazorApp/Pages/FetchData.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmV0Y2hEYXRhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/louiselindberg/Desktop/Moment1.2/Moment1.2/MyBlazorApp/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/louiselindberg/Desktop/Moment1.2/Moment1.2/MyBlazorApp/Pages/JsonData.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSnNvbkRhdGEucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/louiselindberg/Desktop/Moment1.2/Moment1.2/MyBlazorApp/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL01haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/louiselindberg/Desktop/Moment1.2/Moment1.2/MyBlazorApp/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL05hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/louiselindberg/Desktop/Moment1.2/Moment1.2/MyBlazorApp/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL1N1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/louiselindberg/Desktop/Moment1.2/Moment1.2/MyBlazorApp/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 

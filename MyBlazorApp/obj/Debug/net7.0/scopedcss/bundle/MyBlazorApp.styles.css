@@ -1,0 +1,144 @@
+/* /Shared/MainLayout.razor.rz.scp.css */
+/* Generella inställningar */
+/* Rubrik */
+h1[b-zph41ciitw] {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Tabell */
+.table[b-zph41ciitw] {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table th[b-zph41ciitw], .table td[b-zph41ciitw] {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.table th[b-zph41ciitw] {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+/* Meddelande om ingen data */
+.no-data-message[b-zph41ciitw] {
+    font-style: italic;
+    color: #888;
+    margin-top: 20px;
+}
+
+/* Footer */
+footer[b-zph41ciitw] {
+    background-color: #333;
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Banner */
+.banner[b-zph41ciitw] {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.banner img[b-zph41ciitw] {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Formulärsektion */
+.form-section[b-zph41ciitw] {
+    margin-top: 20px;
+}
+
+.form-field[b-zph41ciitw] {
+    margin-bottom: 10px;
+}
+
+.input-field[b-zph41ciitw] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.button[b-zph41ciitw] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button:hover[b-zph41ciitw] {
+    background-color: #0056b3;
+}
+
+/* Resultat */
+.result[b-zph41ciitw] {
+    margin-top: 10px;
+}
+/* /Shared/NavMenu.razor.rz.scp.css */
+/* Top row */
+.top-row[b-myz4v9z4ve] {
+    height: 60px;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+/* Navbar brand */
+.navbar-brand[b-myz4v9z4ve] {
+    font-size: 1.5rem;
+    color: white;
+}
+
+/* Icons */
+.oi[b-myz4v9z4ve] {
+    width: 30px;
+    font-size: 1.5rem;
+    vertical-align: middle;
+}
+
+/* Navigation items */
+.nav-item[b-myz4v9z4ve] {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.nav-item:first-of-type[b-myz4v9z4ve] {
+    margin-top: 10px;
+}
+
+.nav-item a[b-myz4v9z4ve] {
+    color: #ccc;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-link[b-myz4v9z4ve] {
+    background-color: #333;
+    color: #88e5fa; 
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    transition: color 0.3s; 
+}
+
+.nav-link:hover[b-myz4v9z4ve] {
+    color: #030303;
+}

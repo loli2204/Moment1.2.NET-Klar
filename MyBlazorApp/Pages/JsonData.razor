@@ -1,0 +1,47 @@
+<!-- Pages/JsonData.razor -->
+@page "/jsondata"
+@inject HttpClient httpClient
+
+<h1>Kommande Temadagar</h1>
+<div class="banner">
+    <img src="images/2.png" alt="banner">
+</div>
+@if (temaDagar != null && temaDagar.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Datum</th>
+                <th>Tema</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var dag in temaDagar)
+            {
+                <tr>
+                    <td>@dag.Datum</td>
+                    <td>@dag.Tema</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p class="no-data-message">Ingen data tillgänglig.</p>
+}
+
+@code {
+    private TemaDag[] temaDagar;
+
+    protected override async Task OnInitializedAsync()
+    {
+        temaDagar = await httpClient.GetFromJsonAsync<TemaDag[]>("temadagar.json");
+    }
+
+    public class TemaDag
+    {
+        public string Datum { get; set; }
+        public string Tema { get; set; }
+    }
+}

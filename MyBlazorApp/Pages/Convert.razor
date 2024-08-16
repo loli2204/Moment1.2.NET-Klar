@@ -1,0 +1,41 @@
+<!-- Pages/Convert.razor -->
+@page "/convert"
+<h1>Konvertering</h1>
+<div class="banner">
+    <img src="images/1.png" alt="banner">
+</div>
+<div class="form-section">
+    <p>Matning av meter till fot:</p>
+    <div class="form-field">
+        <input @bind="meter" type="number" />
+    </div>
+    <button class="button" @onclick="ConvertToFeet">Konvertera</button>
+    <p class="result">Resultat: @resultFeet fot</p>
+</div>
+
+<div class="form-section">
+    <p>Matning av km/h till miles/hour:</p>
+    <div class="form-field">
+        <input @bind="kmPerHour" type="number" />
+    </div>
+    <button class="button" @onclick="ConvertToMiles">Konvertera</button>
+    <p class="result">Resultat: @resultMiles miles/hour</p>
+</div>
+
+@code {
+    private double meter;
+    private string resultFeet;
+    private double kmPerHour;
+    private int resultMiles;
+
+    private void ConvertToFeet()
+    {
+        double feet = meter * 3.28084; // Konvertera meter till fot
+        resultFeet = feet.ToString("0.##"); // Avrunda till två decimaler
+    }
+
+    private void ConvertToMiles()
+    {
+        resultMiles = (int)Math.Round(kmPerHour * 0.621371); // Konvertera km/h till miles/hour
+    }
+}
